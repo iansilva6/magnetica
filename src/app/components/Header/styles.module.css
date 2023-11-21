@@ -1,0 +1,30 @@
+.navLink {
+    display: inline-block;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    padding: 5px 25px;
+}
+  
+.navLink:hover {
+    background-color: #EF5211; /* Mudança de cor para laranja no hover */
+}
+
+.header {
+    padding: 75px 0px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #EF5211;
+    border: 3px solid #EF5211;
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}

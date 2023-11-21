@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import styles from './styles.module.css'
 
 export default function Header() {
     return (
-        <header className="flex items-center justify-between p-4 w-full">
+        <header className='flex items-center justify-between p-5 w-full'>
           <div className="flex">
             <a href="#">
                 <Image
@@ -13,23 +14,31 @@ export default function Header() {
                     priority
                 />
             </a>
-            <h1 className="hidden">Seu Site</h1>
+            <h1 className="hidden">Magnetica</h1>
           </div>
           <nav>
             <ul className="flex space-x-4">
               <li>
-                <a href="/">
-                    <Image
-                        src="/folder.svg"
-                        alt="Feed"
-                        width={44}
-                        height={28}
-                        priority
-                    />
-                </a>
+                <a href="/" className={styles.navLink}>Work</a>
+              </li>
+              <li>
+                <a href="/" className={styles.navLink}>About</a>
+              </li>
+              <li>
+                <a href="/" className={styles.navLink}>Contact</a>
               </li>
             </ul>
           </nav>
+          <div className={styles.language}>
+            <Image
+              src="/word.svg"
+              alt="Translate"
+              width={25}
+              height={25}
+              priority
+            />
+            English
+          </div>
         </header>
       );
 }
