@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './styles.module.css'
+import Link from 'next/link';
 
 export default function Header() {
     return (
@@ -19,13 +20,13 @@ export default function Header() {
           <nav>
             <ul className="flex space-x-4">
               <li>
-                <a href="/" className={styles.navLink}>Work</a>
+                <Link href="/" className={styles.navLink}>Work</Link>
               </li>
               <li>
-                <a href="/" className={styles.navLink}>About</a>
+                <Link href="/" className={styles.navLink}>About</Link>
               </li>
               <li>
-                <a href="/" className={styles.navLink}>Contact</a>
+                <Link href="/" className={styles.navLink}>Contact</Link>
               </li>
             </ul>
           </nav>
