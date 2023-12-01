@@ -19,15 +19,37 @@
             font-size: 34px;
         }
     }
-    .bannerImg {
+    .bannerText {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
+        p {
+            font-size: 70px;
+        }
     }
 }
 
 .video {
     border-top: 5px solid #fff;
     border-bottom: 5px solid #fff;
+}
+
+.projects {
+    padding: 100px 0px;
+    background-color: #000;
+    .title {
+        color: #fff;
+        font-size: 40px;
+    }
+    .subtitle {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p {
+            color: #fff;
+            font-size: 30px;
+            margin: 0;
+        }
+    }
 }

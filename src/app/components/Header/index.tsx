@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <header className='flex items-center justify-between py-3 w-full'>
+        <header className='flex items-center justify-between p-4 w-full'>
           <div className="flex">
             <a href="#">
                 <Image
