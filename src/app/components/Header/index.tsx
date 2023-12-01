@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import styles from './styles.module.css'
+import styles from './styles.module.scss'
 import Link from 'next/link';
 
 export default function Header() {
     return (
-        <header className='flex items-center justify-between p-5 w-full'>
+        <header className='flex items-center justify-between py-3 w-full'>
           <div className="flex">
             <a href="#">
                 <Image

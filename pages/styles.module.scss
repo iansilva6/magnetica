@@ -1,0 +1,33 @@
+.banner {
+    background: url('../public/bg.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    @media (max-width: 768) {
+        height: auto;
+    }
+    .bannerContent {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        p {
+            color: #fff;
+            font-weight: 400;
+            font-size: 34px;
+        }
+    }
+    .bannerImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.video {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
