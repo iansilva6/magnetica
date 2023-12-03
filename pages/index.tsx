@@ -101,7 +101,7 @@ export default function Home() {
         <section className={styles.portfolio}>
         <Container>
             <Row>
-              <Col xs={6}>
+              <Col xs={12} md={6}>
                 <Image
                   src="/arrow-right.svg"
                   alt="Arrow Right"
@@ -110,7 +110,7 @@ export default function Home() {
                   priority
                 />
               </Col>
-              <Col xs={6} className='mb-5'>
+              <Col xs={12} md={6} className='mb-5'>
                 <h2 className={`${zenDots.className} ${styles.title}`}>
                   Sinta o poder de atração que o design tem
                 </h2>
@@ -120,6 +120,42 @@ export default function Home() {
                   showcasing my proficiency in delivering outstanding results on 
                   original projects.
                 </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={12}>
+                <div className={styles.gridPorfolio}>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 650}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 550}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 500}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 600}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 500}} />
+                    </div>
+                  </div>
+                </div>
               </Col>
             </Row>
           </Container>
