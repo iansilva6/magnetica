@@ -52,4 +52,42 @@
             margin: 0;
         }
     }
+    .gridProjects {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        .imageContainer {
+            width: 100%;
+            max-width: 500px; /* Defina a largura máxima da div conforme necessário */
+            margin: auto; /* Centralizar a div na página */
+            cursor: pointer;
+        }
+        .imageZoomContainer {
+            overflow: hidden;
+            position: relative;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+        .imageZoomContainer:hover .image {
+            transform: scale(1.1); /* Ajuste o valor conforme necessário para o efeito de zoom desejado */
+        }
+    }
+}
+
+.portfolio {
+    padding: 100px 0px;
+    background-color: #000;
+    .title {
+        color: #fff;
+        font-size: 40px;
+    }
+    .subtitle {
+        color: #7B6F6F;
+        font-size: 24px;
+    }
 }

@@ -55,7 +55,7 @@ export default function Home() {
         <section className={styles.projects}>
           <Container>
             <Row>
-              <Col xs={12}>
+              <Col xs={12} className='mb-5'>
                 <p className={`${zenDots.className} ${styles.title}`}>
                   Transformar boas ideias<br></br>
                   em bons negócios. Somos<br></br>
@@ -71,6 +71,55 @@ export default function Home() {
                   />
                   <p>Projetos de Identidade Visual</p>
                 </div>
+              </Col>
+            </Row>
+          </Container>
+          <Container fluid>
+            <Row>
+              <Col xs={12} className='mt-5'>
+                <div className={styles.gridProjects}>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'mockup.png'} alt="Imagem" className={styles.image} />
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section className={styles.portfolio}>
+        <Container>
+            <Row>
+              <Col xs={6}>
+                <Image
+                  src="/arrow-right.svg"
+                  alt="Arrow Right"
+                  width={395}
+                  height={15}
+                  priority
+                />
+              </Col>
+              <Col xs={6} className='mb-5'>
+                <h2 className={`${zenDots.className} ${styles.title}`}>
+                  Sinta o poder de atração que o design tem
+                </h2>
+                <p className={styles.subtitle}>
+                  As a versatile and skilled graphic designer, I have honed my 
+                  expertise in collaborating effectively within teams while also 
+                  showcasing my proficiency in delivering outstanding results on 
+                  original projects.
+                </p>
               </Col>
             </Row>
           </Container>
