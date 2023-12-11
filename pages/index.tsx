@@ -122,6 +122,23 @@ export default function Home() {
                 </p>
               </Col>
             </Row>
+            <Row className="my-5">
+              <Col xs={4}>
+                <div className={styles.categorie}>
+                  Capas
+                </div>
+              </Col>
+              <Col xs={4}>
+                <div className={styles.categorie}>
+                  Posters
+                </div>
+              </Col>
+              <Col xs={4}>
+                <div className={styles.categorie}>
+                  Stickers
+                </div>
+              </Col>
+            </Row>
             <Row>
               <Col sm={12}>
                 <div className={styles.gridPorfolio}>
@@ -158,7 +175,39 @@ export default function Home() {
                 </div>
               </Col>
             </Row>
+            <Row className="my-5">
+              <Col xs={12} md={4} className='mt-5'>
+                <Image
+                  src="/arrow-right.svg"
+                  alt="Arrow Right"
+                  width={395}
+                  height={15}
+                  priority
+                />
+              </Col>
+              <Col xs={12} md={8} className='my-5'>
+                <h2 className={`${zenDots.className} ${styles.title}`}>
+                  DEU LIGA? <strong>É MAGNÉTICA.</strong>
+                </h2>
+              </Col>
+            </Row>
           </Container>
+        </section>
+        <section className={styles.footer}>
+          <Image
+            className={styles.footerUm}
+            src="/footer-1.svg"
+            alt="Arrow Right"
+            width={300}
+            height={300}
+          />
+          <Image
+            className={styles.footerDois}
+            src="/footer-2.svg"
+            alt="Arrow Right"
+            width={100}
+            height={100}
+          />
         </section>
         </main>
       </Layout>
