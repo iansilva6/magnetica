@@ -17,7 +17,7 @@ export default function Home() {
           <div className={styles.bannerContent}>
             <Container>
               <Row>
-                <Col md={6}>
+                <Col xs={0} sm={0} md={6} className='d-none d-lg-block'>
                   <Image
                     src="/banner-icon.svg"
                     alt="Banner Icon"
@@ -27,7 +27,7 @@ export default function Home() {
                   />
                   <p className='mb-5'>Somos uma marca de Design que coloca arte e estratégia no mesmo grau de importância.</p>
                 </Col>
-                <Col md={6}>
+                <Col md={6} className='d-none d-lg-block'>
                   <div className={styles.bannerText}>
                     <p className={zenDots.className}>
                       DESIGN <br></br>
@@ -208,6 +208,18 @@ export default function Home() {
             width={100}
             height={100}
           />
+          <Container>
+            <Row className='mt-5'>
+              <Col xs={12}>
+                <h2 className={`${zenDots.className} ${styles.footerTitle}`}>E AÍ ? VAMOS TRABALHAR JUNTOS NO SEU PROJETO ?</h2>
+              </Col>
+              <Col xs={12}>
+                <div className='d-flex justify-content-center mt-4'>
+                  <div className={`${zenDots.className} ${styles.ctaFooter}`}>Vamos</div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
         </section>
         </main>
       </Layout>

@@ -17,7 +17,7 @@ export default function Header() {
             </a>
             <h1 className="hidden">Magnetica</h1>
           </div>
-          <nav>
+          <nav className='d-none d-md-block'>
             <ul className="flex space-x-4">
               <li>
                 <Link href="/" className={styles.navLink}>Work</Link>

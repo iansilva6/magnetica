@@ -38,9 +38,17 @@
 .projects {
     padding: 100px 0px;
     background-color: #000;
+    @media screen and (max-width:768px) {
+        padding: 50px 0px;
+    }
     .title {
         color: #fff;
         font-size: 40px;
+        @media screen and (max-width:768px) {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom:50px;
+        }
     }
     .subtitle {
         display: flex;
@@ -50,6 +58,11 @@
             color: #fff;
             font-size: 30px;
             margin: 0;
+            @media screen and (max-width:768px) {
+                font-size: 24px;
+                text-align: center;
+                padding: 0px 20px;
+            }
         }
     }
     .gridProjects {
@@ -72,6 +85,9 @@
             height: auto;
             display: block;
             transition: transform 0.3s ease-in-out;
+            @media screen and (max-width:768px) {
+                height: 220px!important;
+            }
         }
         .imageZoomContainer:hover .image {
             transform: scale(1.1); /* Ajuste o valor conforme necessário para o efeito de zoom desejado */
@@ -82,9 +98,17 @@
 .portfolio {
     padding: 100px 0px;
     background-color: #000;
+    @media screen and (max-width:768px) {
+        padding: 50px 0px;
+    }
     .title {
         color: #fff;
         font-size: 40px;
+        @media screen and (max-width:768px) {
+            font-size: 28px;
+            text-align: center;
+            margin-top: 20px;
+        }
         strong {
             color: #EF5211;
         }
@@ -92,6 +116,10 @@
     .subtitle {
         color: #7B6F6F;
         font-size: 24px;
+        @media screen and (max-width:768px) {
+            font-size: 22px;
+            text-align: center;
+        }
     }
     .categorie {
         color: #fff;
@@ -104,6 +132,9 @@
         font-size: 20px;
         cursor: pointer;
         transition: 0.3s;
+        @media screen and (max-width:768px) {
+            font-size: 15px;
+        }
         &:hover {
             background-color: #fff;
             color: #000;
@@ -135,7 +166,10 @@
             height: auto;
             display: block;
             transition: transform 0.3s ease-in-out;
-            object-fit: fill;
+            object-fit: cover;
+            @media screen and (max-width:768px) {
+                height: 220px!important;
+            }
         }
         .imageZoomContainer:hover .image {
             transform: scale(1.1); /* Ajuste o valor conforme necessário para o efeito de zoom desejado */
@@ -148,14 +182,50 @@
     background-color: #D9D9D9;
     position: relative;
     min-height: 500px;
+    @media screen and (max-width:768px) {
+        padding: 50px 0px;
+        min-height: auto;
+    }
     .footerUm {
         position: absolute;
         top: -30%;
-        left: 0;
+        left: -100px;
+        @media screen and (max-width:768px) {
+            display: none;
+        }
     }
     .footerDois {
         position: absolute;
         top: -50%;
         right: 0;
+        @media screen and (max-width:768px) {
+            display: none;
+        }
+    }
+    .footerTitle {
+        text-align: center;
+        padding: 10px 80px;
+        font-size: 48px;
+        @media screen and (max-width:768px) {
+            font-size: 28px;
+            padding: 10px;
+        }
+    }
+    .ctaFooter {
+        background-color: #EF5211;
+        padding: 10px;
+        font-size: 48px;
+        width: 300px;
+        text-align: center;
+        color: #D9D9D9;
+        border-radius: 50px;
+        cursor: pointer;
+        @media screen and (max-width:768px) {
+            font-size: 28px;
+        }
+        &:hover {
+            opacity: 0.6;
+            transition: 0.3s;
+        }
     }
 }

@@ -1,3 +1,9 @@
+.headerDesktop {
+    @media (max-width: 768) {
+        display: none;
+    }
+}
+
 .navLink {
     display: inline-block;
     border: 3px solid #fff;
