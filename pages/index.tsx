@@ -144,32 +144,92 @@ export default function Home() {
                 <div className={styles.gridPorfolio}>
                   <div className={styles.imageContainer}>
                     <div className={styles.imageZoomContainer}>
-                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 450}} />
+                      <img src={'/portfolio/1.png'} alt="1" className={styles.image} style={{height: 450}} />
                     </div>
                   </div>
                   <div className={styles.imageContainer}>
                     <div className={styles.imageZoomContainer}>
-                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 650}} />
+                      <img src={'/portfolio/2.png'} alt="2" className={styles.image} style={{height: 650}} />
                     </div>
                   </div>
                   <div className={styles.imageContainer}>
                     <div className={styles.imageZoomContainer}>
-                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 550}} />
+                      <img src={'/portfolio/3.png'} alt="3" className={styles.image} style={{height: 350}} />
                     </div>
                   </div>
                   <div className={styles.imageContainer}>
                     <div className={styles.imageZoomContainer}>
-                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 500}} />
+                      <img src={'/portfolio/4.png'} alt="4" className={styles.image} style={{height: 350}} />
                     </div>
                   </div>
                   <div className={styles.imageContainer}>
                     <div className={styles.imageZoomContainer}>
-                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 600}} />
+                      <img src={'/portfolio/5.png'} alt="5" className={styles.image} style={{height: 300}} />
                     </div>
                   </div>
                   <div className={styles.imageContainer}>
                     <div className={styles.imageZoomContainer}>
-                      <img src={'mockup.png'} alt="Imagem" className={styles.image} style={{height: 500}} />
+                      <img src={'/portfolio/6.png'} alt="6" className={styles.image} style={{height: 800}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/7.png'} alt="7" className={styles.image} style={{height: 500}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/8.png'} alt="8" className={styles.image} style={{height: 600}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/9.png'} alt="9" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/10.png'} alt="10" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/11.png'} alt="11" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/12.png'} alt="12" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/13.png'} alt="13" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/14.png'} alt="14" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/15.png'} alt="15" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/6.png'} alt="16" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/17.png'} alt="17" className={styles.image} style={{height: 450}} />
+                    </div>
+                  </div>
+                  <div className={styles.imageContainer}>
+                    <div className={styles.imageZoomContainer}>
+                      <img src={'/portfolio/18.png'} alt="18" className={styles.image} style={{height: 650}} />
                     </div>
                   </div>
                 </div>
