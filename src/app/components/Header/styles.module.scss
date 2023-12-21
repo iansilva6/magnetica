@@ -1,6 +1,12 @@
 .headerDesktop {
-    @media (max-width: 768) {
+    @media screen and (max-width:768px) {
         display: none;
+    }
+}
+
+.logo {
+    @media screen and (max-width:768px) {
+        width: 150px;
     }
 }
 
@@ -34,4 +40,8 @@
     padding: 5px 25px;
     font-size: 16px;
     cursor: pointer;
+    @media screen and (max-width:768px) {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
 }

@@ -10,6 +10,7 @@ export default function Header() {
                 <Image
                     src="/logo.svg"
                     alt="Magnetica Logo"
+                    className={styles.logo}
                     width={200}
                     height={40}
                     priority
@@ -30,15 +31,17 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <div className={styles.language}>
-            <Image
-              src="/word.svg"
-              alt="Translate"
-              width={25}
-              height={25}
-              priority
-            />
-            English
+          <div className='d-none d-md-block'>
+            <div className={styles.language}>
+              <Image
+                src="/word.svg"
+                alt="Translate"
+                width={25}
+                height={25}
+                priority
+              />
+              English
+            </div>
           </div>
         </header>
       );
