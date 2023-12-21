@@ -37,13 +37,13 @@ export default function Home() {
                     </p>
                   </div>
                 </Col>
-                <Col xs={12} className='d-lg-none'>
+                <Col xs={12} className='d-lg-none mt-4'>
                   <div className='d-flex justify-content-center'>
                     <Image
                       src="/banner-icon.svg"
                       alt="Banner Icon"
-                      width={280}
-                      height={280}
+                      width={220}
+                      height={220}
                       priority
                     />
                   </div>
@@ -121,7 +121,7 @@ export default function Home() {
         <Container>
             <Row>
               <Col xs={12} md={6}>
-                <RevealWrapper origin='left' delay={200}>
+                <RevealWrapper origin='bottom' delay={200}>
                   <Image
                     src="/arrow-right.svg"
                     alt="Arrow Right"
@@ -132,7 +132,7 @@ export default function Home() {
                 </RevealWrapper>
               </Col>
               <Col xs={12} md={6} className='mb-5'>
-                <RevealWrapper origin='right' delay={200}>
+                <RevealWrapper origin='bottom' delay={200}>
                   <h2 className={`${zenDots.className} ${styles.title}`}>
                     Sinta o poder de atração que o design tem
                   </h2>
@@ -277,16 +277,15 @@ export default function Home() {
           </Container>
         </section>
         <section className={styles.footer}>
-          <RevealWrapper className={styles.footerUm} origin='top' delay={300}>
+          <RevealWrapper className={styles.footerUm} origin='top' delay={600}>
             <Image
-              
               src="/footer-1.svg"
               alt="Arrow Right"
               width={300}
               height={300}
             />
           </RevealWrapper>
-          <RevealWrapper className={styles.footerDois} origin='bottom' delay={300}>
+          <RevealWrapper className={styles.footerDois} origin='bottom' delay={600}>
             <Image
               src="/footer-2.svg"
               alt="Arrow Right"
@@ -305,7 +304,7 @@ export default function Home() {
                 </div>
               </Col>
             </Row>
-            <RevealWrapper origin='bottom' delay={500}>
+            <RevealWrapper origin='bottom' delay={1000}>
               <Row className='mt-5'>
                 <Col xs={4} className='mt-5'>
                   <Image
